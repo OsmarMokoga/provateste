@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisão de Geografia - UECE</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #007bff;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
+            margin-top: 30px;
+        }
+        .question {
+            margin-bottom: 25px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #fff;
+        }
+        .question p.enunciado {
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: #555;
+        }
+        .options {
+            list-style: none;
+            padding: 0;
+        }
+        .options li {
+            margin-bottom: 8px;
+        }
+        .gabarito {
+            display: none;
+            margin-top: 15px;
+            padding: 10px;
+            border: 1px solid #28a745;
+            background-color: #d4edda;
+            color: #155724;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        button {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+            font-size: 1em;
+        }
+        button:hover {
+            background-color: #1e7e34;
+        }
+        .coluna-i, .coluna-ii {
+            display: inline-block;
+            vertical-align: top;
+            width: 45%; /* Ajustado para melhor visualização */
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+        }
+        .coluna-i { margin-right: 2%; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>🌍 Revisão de Geografia e Geociências - UECE</h1>
+    <p>Compilado de questões de provas anteriores, abrangendo Geomorfologia, Pedologia e Regionalização do Brasil.</p>
+    
+    <button onclick="toggleGabarito()">Mostrar / Ocultar Gabarito</button>
+
+    <div class="question">
+        <h2>1. Tipos de Erosão e Ocorrência</h2>
+        <p class="enunciado">(UECE 2017.1 2ºfase) Erosão é um processo natural presente nos mais diversos ambientes do planeta. Relacione corretamente os tipos de erosão com os respectivos locais de ocorrência, numerando a Coluna II de acordo com a Coluna I.</p>
+        
+        <div class="coluna-i">
+            <strong>Coluna I</strong>
+            <ol>
+                <li>Erosão fluvial</li>
+                <li>Voçorocas</li>
+                <li>Erosão em splash</li>
+                <li>Erosão laminar</li>
+            </ol>
+        </div>
+        
+        <div class="coluna-ii">
+            <strong>Coluna II</strong>
+            <p>( 3 ) Processo decorrente do efeito gerado pela queda das gotas de chuva sobre o solo ou estruturas de relevo.</p>
+            <p>( 1 ) Processo que ocorre pela ação dos rios quando estes se excedem e avançam sobre as margens.</p>
+            <p>( 2 ) Formação de grandes crateras que ocasionalmente atingem o lençol freático ou estruturas internas dos solos.</p>
+            <p>( 4 ) Ocorre quando o escoamento superficial da precipitação carreia o solo, retirando a sua cobertura superficial.</p>
+        </div>
+
+        <ul class="options">
+            <li>A) 3, 1, 2, 4.</li>
+            <li>B) 3, 2, 4, 1.</li>
+            <li>C) 1, 2, 3, 4.</li>
+            <li>D) 2, 1, 4, 3.</li>
+        </ul>
+        <div class="gabarito" id="gab-1">Resposta Correta: A) 3, 1, 2, 4.</div>
+    </div>
+    
+    <div class="question">
+        <h2>2. Dinâmica das Paisagens e Estabilidade</h2>
+        <p class="enunciado">(UECE 2018.1 2ºfase) Considerando os processos e a dinâmica das paisagens, pode-se afirmar corretamente que, em ambientes estáveis, ocorre(m)</p>
+        <ul class="options">
+            <li>A) morfogênese.</li>
+            <li>B) pedogênese.</li>
+            <li>C) erosão mais intensa.</li>
+            <li>D) solos arrasados.</li>
+        </ul>
+        <div class="gabarito" id="gab-2">Resposta Correta: B) pedogênese.</div>
+    </div>
+
+    <div class="question">
+        <h2>3. Equilíbrio Vertical da Crosta</h2>
+        <p class="enunciado">(UECE 2019.2 2ºfase) O excerto abaixo descreve: “[...] é, essencialmente, o equilíbrio vertical da crosta terrestre (litosfera) sobre o substrato mantélico, controlado pela diferença de densidade das rochas que compõem a crosta e o manto. O relevo (topografia) resultante das diferenças de densidade na crosta é variável devido a mudanças de espessura dos pacotes litosféricos: o acúmulo de material gera sobrepeso e, consequentemente, ocorre afundamento da região (subsidência), enquanto o alívio de peso pode induzir emergência do terreno (soerguimento)”. O excerto acima descreve o processo e apresenta o conceito de</p>
+        <ul class="options">
+            <li>A) silicificação.</li>
+            <li>B) isostasia.</li>
+            <li>C) astenosfera.</li>
+            <li>D) subducção.</li>
+        </ul>
+        <div class="gabarito" id="gab-3">Resposta Correta: B) isostasia.</div>
+    </div>
+
+    <div class="question">
+        <h2>4. Solos Pouco Evoluídos (Neossolos)</h2>
+        <p class="enunciado">(UECE 2018.1 2ºfase) Solos pouco evoluídos, delgados, com ausência de horizonte B, onde predominam de forma bastante preservadas as características da rocha original, são conhecidos como</p>
+        <ul class="options">
+            <li>A) luvissolos.</li>
+            <li>B) argissolos.</li>
+            <li>C) neossolos.</li>
+            <li>D) planossolos.</li>
+        </ul>
+        <div class="gabarito" id="gab-4">Resposta Correta: C) neossolos.</div>
+    </div>
+
+    <div class="question">
+        <h2>5. Formação e Processos do Solo</h2>
+        <p class="enunciado">(UECE 2019.1 1ºfase) Considerando os solos e seus processos de formação, analise as seguintes afirmações.</p>
+        <ol>
+            <li>O solo é formado por um conjunto de corpos naturais tridimensionais, resultantes da ação integrada, entre outras coisas, do clima e dos organismos sobre o relevo.</li>
+            <li>Os solos alóctones resultam do intemperismo da rocha subjacente.</li>
+            <li>A adição pode ocorrer através da lixiviação ou erosão dos solos.</li>
+        </ol>
+        <p>Está correto o que se afirma somente em</p>
+        <ul class="options">
+            <li>A) I.</li>
+            <li>B) I e II.</li>
+            <li>C) III.</li>
+            <li>D) II e III.</li>
+        </ul>
+        <div class="gabarito" id="gab-5">Resposta Correta: A) I.</div>
+    </div>
+
+    <div class="question">
+        <h2>6. Características das Rochas Magmáticas</h2>
+        <p class="enunciado">(UECE 2019.2 2ºfase) As rochas magmáticas são rochas de origem primária resultantes da consolidação do magma... Sobre essas rochas, é correto afirmar que:</p>
+        <ul class="options">
+            <li>A) a textura de uma rocha magmática intrusiva depende da velocidade do seu resfriamento.</li>
+            <li>B) a textura do tipo microgranular se deve a um resfriamento muito lento formando cristais microscópicos.</li>
+            <li>C) os tipos mais comuns são os granitoides e quartzitos, que são rochas mais resistentes.</li>
+            <li>D) dentre os exemplos de rochas intrusivas, destacam se os granitos, os mármores e as ardósias.</li>
+        </ul>
+        <div class="gabarito" id="gab-6">Resposta Correta: A) a textura de uma rocha magmática intrusiva depende da velocidade do seu resfriamento.</div>
+    </div>
+
+    <div class="question">
+        <h2>7. Geomorfologia do Ceará (Planalto da Ibiapaba)</h2>
+        <p class="enunciado">(UECE 2022.1 2ºfase) Atente para a seguinte descrição: “Abrange toda a porção ocidental do Ceará nos limites com o Estado do Piauí. Dispõe-se de sul para o norte através de um escarpamento contínuo, abrupto e bastante festonado. [...] Representa o rebordo oriental da bacia do Maranhão-Piauí, de cuja base se estende a depressão periférica ocidental do Ceará”. O excerto acima apresentado se refere</p>
+        <ul class="options">
+            <li>A) à Bacia do Parnaíba.</li>
+            <li>B) ao Planalto da Ibiapaba.</li>
+            <li>C) à Chapada do Araripe.</li>
+            <li>D) à Depressão Sertaneja.</li>
+        </ul>
+        <div class="gabarito" id="gab-7">Resposta Correta: B) ao Planalto da Ibiapaba.</div>
+    </div>
+
+    <div class="question">
+        <h2>8. Bioma Brasileiro (Pantanal)</h2>
+        <p class="enunciado">(UECE 2017.1 2ºfase) Atente à seguinte descrição: “Este bioma continental é considerado o de menor extensão territorial no Brasil... Em seu espaço territorial, o bioma, que é uma planície aluvial, é influenciado por rios que drenam a bacia do Alto Paraguai...” O texto acima descreve o bioma denominado</p>
+        <ul class="options">
+            <li>A) Cerrado.</li>
+            <li>B) Pantanal.</li>
+            <li>C) Mata Atlântica.</li>
+            <li>D) Pampa.</li>
+        </ul>
+        <div class="gabarito" id="gab-8">Resposta Correta: B) Pantanal.</div>
+    </div>
+
+    <div class="question">
+        <h2>9. Regionalização do Brasil (Grandes Regiões)</h2>
+        <p class="enunciado">(UECE 2018.1 2ºfase) Relacione corretamente as grandes regiões brasileiras apresentadas, a seguir, com sua recente caracterização, numerando a Coluna II de acordo com a Coluna I.</p>
+        <div class="coluna-i">
+            <strong>Coluna I (Região)</strong>
+            <ol>
+                <li>Nordeste</li>
+                <li>Norte</li>
+                <li>Sudeste</li>
+                <li>Centro-Oeste</li>
+            </ol>
+        </div>
+        <div class="coluna-ii">
+            <strong>Coluna II (Caracterização)</strong>
+            <p>( 2 ) Vasta extensão geográfica, rarefação demográfica e baixa densidade técnica.</p>
+            <p>( 3 ) Mais consolidada a implantação dos sistemas técnicos e fluxos acelerados da modernidade.</p>
+            <p>( 1 ) Expansão do agronegócio, consumo, indústria e turismo litorâneo, sobre quadro social e político tradicional.</p>
+            <p>( 4 ) Região de “ocupação periférica e recente”, mas com implantação de valores modernos e tecnologia de ponta na agricultura e indústria.</p>
+        </div>
+        <ul class="options">
+            <li>A) 2, 3, 1, 4.</li>
+            <li>B) 1, 4, 2, 3.</li>
+            <li>C) 3, 1, 2, 4.</li>
+            <li>D) 1, 4, 3, 2.</li>
+        </ul>
+        <div class="gabarito" id="gab-9">Resposta Correta: A) 2, 3, 1, 4.</div>
+    </div>
+
+    <div class="question">
+        <h2>10. Fontes de Energia Renovável</h2>
+        <p class="enunciado">(UECE 2016.1 2º fase) Outras fontes de energia que podem ser consideradas renováveis, além da biomassa (lenha, bagaço de cana, etc.), são:</p>
+        <ul class="options">
+            <li>A) eólica e gás natural.</li>
+            <li>B) hidrelétrica e maremotriz.</li>
+            <li>C) carvão mineral e solar.</li>
+            <li>D) nuclear e termoelétricas.</li>
+        </ul>
+        <div class="gabarito" id="gab-10">Resposta Correta: B) hidrelétrica e maremotriz.</div>
+    </div>
+
+    <p style="text-align: center; margin-top: 40px;">Bons estudos! 📚</p>
+
+</div>
+
+<script>
+    // Função para mostrar ou ocultar o gabarito
+    function toggleGabarito() {
+        const gabaritos = document.querySelectorAll('.gabarito');
+        gabaritos.forEach(gabarito => {
+            if (gabarito.style.display === 'none' || gabarito.style.display === '') {
+                gabarito.style.display = 'block';
+            } else {
+                gabarito.style.display = 'none';
+            }
+        });
+    }
+</script>
+
+</body>
+</html>
